@@ -35,7 +35,7 @@ func main() {
 	}
 
 	// 二维数组
-	values := [][]int{}
+	var values [][]int
 
 	rows1 := []int{1, 2, 3}
 	rows2 := []int{4, 5, 6}
@@ -69,7 +69,7 @@ func main() {
 	}
 
 	// 创建维度元素数量不一致的多维数组
-	animals := [][]string{}
+	var animals [][]string
 
 	r1 := []string{"fish", "shark", "eel"}
 	r2 := []string{"bird"}

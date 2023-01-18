@@ -85,25 +85,26 @@ func main() {
 	}
 
 	// fallthrough无视条件强制执行下一条case
-	switch {
-	case false:
-		fmt.Printf("1")
-		fallthrough
-	case true:
-		fmt.Printf("2")
-		fallthrough
-	case false:
-		fmt.Printf("3")
-		fallthrough
-	case true:
-		fmt.Printf("4")
-		fallthrough
-	case false:
-		fmt.Printf("5")
-		fallthrough
-	default:
-		fmt.Printf("default(6)")
-	}
+
+	//switch {
+	//case false:
+	//	fmt.Printf("1")
+	//	fallthrough
+	//case true:
+	//	fmt.Printf("2")
+	//	fallthrough
+	//case false:
+	//	fmt.Printf("3")
+	//	fallthrough
+	//case true:
+	//	fmt.Printf("4")
+	//	fallthrough
+	//case false:
+	//	fmt.Printf("5")
+	//	fallthrough
+	//default:
+	//	fmt.Printf("default(6)")
+	//}
 	println()
 
 	// select

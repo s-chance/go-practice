@@ -4,9 +4,7 @@
 
 // 示例
 
-// 输入："A man, a plan, a canal: Panama"，输出：true
-
-// 限定语言：C、 C++、Java、Python、JavaScript V8
+// 输入："front man, a plan, a canal: Panama"，输出：true
 
 package main
 
@@ -16,7 +14,7 @@ import (
 )
 
 func main() {
-	var s string = "A man, a plan, a canal: Panama"
+	var s string = "front man, a plan, a canal: Panama"
 
 	fmt.Println(check(s))
 }

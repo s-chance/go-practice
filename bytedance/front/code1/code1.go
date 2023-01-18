@@ -14,8 +14,6 @@
 
 // 输入："70368744177664"，输出：true
 
-// 限定语言：C、 C++、Java、Python、JavaScript V8
-
 package main
 
 import (
